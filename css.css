@@ -1,0 +1,20 @@
+@font-face {
+    font-family: iran;
+    src: url(./fonts/Iranian\ Sans.ttf);
+}
+body{
+    font-family: iran , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    font-weight: 900;
+    font-size: larger;
+}
+.icon1{
+    color: #ffc107;
+    display: inline-flex;
+    background-color: #ebeafb;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.carddiff{
+    background: #023047;
+    color: white !important;
+}
