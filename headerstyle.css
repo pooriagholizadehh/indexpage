@@ -1,0 +1,131 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Teko', sans-serif;
+    }
+    
+    .header {
+        width: 100%;
+        height: 90vh;
+        background-size: cover;
+        background-position: top;
+        background-color: rgb(19, 17, 17);
+    }
+    
+    .image {
+        width: 70%;
+        height: 600px;
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        transition: 1s;
+        animation: MoveInleft 2s ease-out;
+    }
+    
+    .text {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        position: absolute;
+        top: 7%;
+    }
+    
+    .big-text {
+        color: rgba(172, 172, 172, 0.849);
+        font-size: 220px;
+        animation: MoveInRight 2s ease-out;
+    }
+    
+    .color-text {
+        color: rgb(133, 2, 2);
+    }
+    
+    .nav {
+        background-color: black;
+        width: 100%;
+        height: 60px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 50px;
+    }
+    
+    .navbar-links {
+        list-style: none;
+        display: flex;
+    }
+    
+    .logo {
+        cursor: pointer;
+        font-size: 50px;
+    }
+    
+    .link {
+        margin-left: 20px;
+        cursor: pointer;
+        transition: all 0.3s;
+        font-size: 24px;
+    }
+    
+    .link:hover {
+        transform: scale(1.2);
+    }
+    
+    .login {
+        color: rgb(180, 3, 3);
+        font-weight: bold;
+    }
+    
+    .media {
+        color: white;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 80px;
+        animation: MoveInRight 1s ease-out;
+    }
+    
+    .media-text {
+        font-size: 18px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    
+    .fa {
+        cursor: pointer;
+        margin-top: 7px;
+    }
+    
+    @keyframes MoveInRight {
+        0% {
+            opacity: 0;
+            transform: translateX(-100px);
+        }
+        80% {
+            transform: translateX(10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translate(0);
+        }
+    }
+    
+    @keyframes MoveInleft {
+        0% {
+            opacity: 1;
+            transform: translateX(100px);
+        }
+        80% {
+            transform: translateX(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translate(0);
+        }
+    }
