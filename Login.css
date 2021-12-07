@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+nav{
+    width: 100%;
+    background-color:rgb(234, 232, 232);
+    display: flex;
+    flex-direction: column;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    padding: 5px 10px;
+    margin-top: 10px;
+    background: #ffff;
+    border:1px solid rgb(234, 232, 232);
+}
+.list{
+    list-style: none;
+    display: flex;
+    margin: 13px 109px;
+    float: right;
+    line-height: 20px;
+    color: darkgrey;
+
+}
+.list-item{
+    
+    display: block;
+    padding: 5px 5px;
+    transition: all 0.3s;
+}
+.list-item:hover{
+    color:deeppink;
+}
+.active{
+    color: black;
+}
+.img-2{
+margin-right: 160px;
+}
+.left{
+    display: flex;
+    margin-left:50px;
+    margin-top: 10px;
+    float: left;
+    color: gray;
+}
+.left img{
+    width: 25px;
+}
+.left span{
+    padding: 5px;
+    display: inline-block;
+}
+.loginc{
+    clear: both;
+    width: 55%;
+    margin: 100px auto;
+    line-height: 40px;
+}
+.header{
+    background: #eeeeee;
+    text-align: center;
+}
+.header p {
+    color:grey;
+}
+.email{
+    border-bottom: 2px solid gray;
+    width: 100%;
+    margin-top: 20px;
+}
+.active2{
+    border-bottom: 2px solid #d81b60;
+    color: #d81b60;
+}
+.place{
+    width: 100%;
+    padding-right:80px;
+    background-color: #dfdbdb;
+}
+.user{
+    padding: 20px;
+}
+.user input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid hsl(0, 4%, 80%);
+    border-radius: 10px;
+}
+.pass{
+    padding: 20px;
+}
+.pass input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid hsl(0, 4%, 80%);
+    border-radius: 10px;
+}
+.btn1{
+    width: 95%;
+}
+.btn2{
+    color: #fff;
+    border: none;
+    margin-right: 15px;
+    background-color: #d81b60;
+    border-radius: 30px;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.loginf{
+    background-color: rgb(236, 236, 236);
+    padding: 15px;
+    text-align: center;
+}
+.loginf span{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
